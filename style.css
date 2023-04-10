@@ -1,0 +1,237 @@
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    font-weight: bolder;
+    border-bottom: solid 2px whitesmoke;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: #06283d;
+    background: #256D85;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+    font-size: 35px;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+
+}
+
+.nav-links li a {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.nav-links li:hover {
+    border-bottom: 2px solid whitesmoke;
+    font-size: larger;
+}
+
+header {
+    width: 100vw;
+    height: 90vh;
+    /* background-image: url(vct.jpeg); */
+    background-image: url(bg2.png);
+    /* background-position: bottom; */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-content {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.body-content h2 {
+    font-size: 4vmin;
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.line-design {
+    width: 80%;
+    height: 4px;
+    background-color: #256D85;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.body-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 25px;
+    background-color: #256D85;
+    border-radius: 25px;
+    color: #DFF6FF;
+    font-size: large;
+}
+
+.btn:hover {
+    font-size: larger;
+}
+
+
+/* About me page css */
+.explore {
+    margin: 0;
+    width: 100%;
+    height: 90vh;
+    background-image: url(bg2.png);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.explore-content {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+    /* margin:50px; */
+    color: #256D85;
+    margin-top: 45px;
+}
+
+.explore-content .line-design {
+    margin-bottom: 30px;
+
+}
+
+.explore-content p {
+    font-family: sans-serif;
+    font-size: 20px;
+    ;
+}
+
+.explore-content .btn {
+    margin-top: 20px;
+}
+
+
+/* Portfolio page CSS */
+section {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(bg2.png);
+
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #06283d;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    margin: 20px auto;
+}
+
+p {
+    margin: 20px auto;
+}
+
+.portfolio .btn {
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+.portfolio .btn:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* Footer section of html */
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #256D85;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-top: solid 2px whitesmoke;
+}
+
+.footer a {
+    color: whitesmoke;
+
+
+}
+
+.footer a:hover {
+    border-bottom: 2px solid whitesmoke;
+    font-size: larger
+}
