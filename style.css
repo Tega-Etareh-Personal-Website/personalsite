@@ -11,20 +11,26 @@ ul {
     list-style: none;
 }
 .active {
-    font-weight: bolder;
-    text-decoration:underline;
-    
+    font-weight: bolder; 
 }
 
 .navbar {
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     display:flex;
+    height: 70px;
     width: 100%;
     justify-content: space-between;
     padding: 20px;
     color: #06283d;
+    background: #256D85;
+    box-shadow: 0 0 25px 0 black;
+}
+.logo {
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+    font-size: 35px;
 
 }
 .nav-links {
@@ -36,7 +42,12 @@ ul {
     
 }
 .nav-links li a {
-    color: #06283d;
+    color: whitesmoke;
+    font-size: larger;
+}
+.nav-links li:hover {
+    border-bottom: 2px solid whitesmoke;
+    font-size: larger;
 }
 header {
     width:100vw;
@@ -56,6 +67,7 @@ header {
 .body-content h2 {
     font-size:4vmin;
     margin-top:20px;
+    font-family: 'Satisfy', cursive;
 }
 .line-design  {
     width:80%;
