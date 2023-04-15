@@ -287,7 +287,7 @@ form {
 }
 input, button {
     width:20%;
-    height: auto;
+    height: 30px;
     font-size: 15px;
     margin: 10px;
 }
