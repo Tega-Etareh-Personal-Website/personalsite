@@ -272,6 +272,36 @@ p {
     font-weight: bolder;
 }
 
+/* Contact me Page */
+.contact {
+    padding: 20px;
+
+}
+.contact .line-design {
+    width:35%;
+    margin:0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, button {
+    width:20%;
+    height: auto;
+    font-size: 15px;
+    margin: 10px;
+}
+
+label{
+    margin: auto 10px;
+}
+textarea {
+    width:40%;
+    resize: none;
+   
+    
+}
+
 /* Footer section of html */
 .footer {
     width: 100%;
