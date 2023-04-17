@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <!-- <script src="javascript.js"></script> -->
 </head>
 
 <body>
@@ -23,6 +23,7 @@
                 <li><a href="portfolio.html">PORTFOLIO</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
+            <img src="images/btn.png" alt="" class="menu-btn">
         </nav>
         <div class="body-content">
             <h1>Future Fullstack Developer</h1>
@@ -43,6 +44,16 @@
         <p>Copyright © Tega Etareh Project Production</div>
         </p>
     </section>
+<!-- code for menu button -->
+      <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        });
+
+    </script>
 </body>
 
 </html>
