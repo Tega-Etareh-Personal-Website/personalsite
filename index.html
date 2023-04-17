@@ -7,39 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <!-- <script src="javascript.js"></script> -->
 </head>
 
 <body>
 
-    <nav class="navbar">
-        <h1 class="logo">Oghenetega Etareh</h1>
-        <ul class="nav-links">
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="portfolio.html">PORTFOLIO</a></li>
-        </ul>
-    </nav>
+
 
     <header>
+        <nav class="navbar">
+            <h1 class="logo">Oghenetega Etareh</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <img src="images/btn.png" alt="" class="menu-btn">
+        </nav>
         <div class="body-content">
             <h1>Future Fullstack Developer</h1>
             <div class="line-design"></div>
             <h2>Do or do not, there is no try - Yoda</h2>
             <br><br>
-        
+
             <a href="about.html" class="btn">About Me</a>
         </div>
     </header>
 
     <section class="footer">
         <p>
-            <a href="https://www.linkedin.com/in/etareh">LinkedIn</a> 
-            | Phone: 800-123-4567 | 
-            <a href="https://github.com/tegaetareh">Github</a> </p>
+            <a href="https://www.linkedin.com/in/etareh">LinkedIn</a>
+            | <a href="mailto:tega.etare@gmail.com">tega.etare@gmail.com</a> |
+            <a href="https://github.com/tegaetareh">Github</a>
+        </p>
         <p>Copyright © Tega Etareh Project Production</div>
         </p>
     </section>
+<!-- code for menu button -->
+      <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        });
+
+    </script>
 </body>
 
 </html>
